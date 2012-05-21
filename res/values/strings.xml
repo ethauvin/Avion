@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plane</string>
+    <string name="title">Airplane Mode</string>
+    <string name="activated">Airplane Mode activated</string>
+    <string name="deactivated">Airplane Mode deactivated</string>
+    <string name="ok">OK</string>
+
+</resources>
