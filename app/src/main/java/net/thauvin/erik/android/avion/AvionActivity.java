@@ -30,17 +30,9 @@
  * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- *
  */
 package net.thauvin.erik.android.avion;
 
-/**
- * The <code>AvionActivity</code> class implements an airplane mode toggler.
- * 
- * @author <a href="mailto:erik@thauvin.net">Erik C. Thauvin</a>
- * @created May 20, 2012
- * @since 1.0
- */
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -48,6 +40,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Settings;
 
+/**
+ * The <code>AvionActivity</code> class implements an airplane mode toggler.
+ *
+ * @author <a href="mailto:erik@thauvin.net">Erik C. Thauvin</a>
+ * @created May 20, 2012
+ * @since 1.0
+ */
 public class AvionActivity extends Activity
 {
 	/** Called when the activity is first created. */
