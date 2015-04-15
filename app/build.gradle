@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'versionPlugin'
 
 android {
     compileSdkVersion 13
@@ -15,5 +16,12 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+
+    versionPlugin {
+        buildTypesMatcher = 'release'
+        supportBuildNumber = false
+
+        fileNameFormat = '$projectName'
     }
 }
