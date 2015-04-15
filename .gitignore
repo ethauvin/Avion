@@ -1,6 +1,7 @@
-/bin
-/gen
-/project.properties
-/proguard-project.txt
-/.classpath
-/.project
+.DS_Store
+.gradle
+/.idea/libraries
+/.idea/workspace.xml
+/build
+/captures
+/local.properties
