@@ -9,6 +9,8 @@ android {
         applicationId "net.thauvin.erik.android.avion"
         minSdkVersion 13
         targetSdkVersion 13
+        versionCode 1
+        versionName "1.0"
     }
 
     buildTypes {
